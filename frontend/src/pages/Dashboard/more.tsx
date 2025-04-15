@@ -30,7 +30,7 @@ export const More = () => {
           note={data?.note}
           description={data?.description}
           email={data?.user?.email}
-          avatar="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+          avatar="https://plus.unsplash.com/premium_vector-1713201017274-e9e97d783e75?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
       </div>
     </Suspense>

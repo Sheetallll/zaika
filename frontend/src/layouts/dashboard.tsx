@@ -56,7 +56,7 @@ export const DashboardLayout = () => {
           <div className="md:flex gap-8 items-start w-full p-3">
             <img
               className="h-16 w-16 object-cover rounded-full"
-              src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+              src="https://media.istockphoto.com/id/2202660541/photo/3d-render-portrait-of-a-positive-casual-brunette-girl-chef-in-glasses-stands-with-her-arms.webp?a=1&b=1&s=612x612&w=0&k=20&c=Ic9-V9UUUOdXJrE-SvwXrAvLkQJemfwvWDTC6esXDbA="
               alt="A image"
             />
             <div>

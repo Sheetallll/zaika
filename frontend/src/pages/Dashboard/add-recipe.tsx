@@ -1,5 +1,5 @@
 import cogoToast from "cogo-toast";
-import React, { DragEvent, FormEvent, useState } from "react";
+import { DragEvent, FormEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button, Form, Input, TextArea } from "../../components";
 import { useRecipe } from "../../hooks";

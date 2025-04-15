@@ -102,56 +102,54 @@ export const Landing = () => {
   //   }
   //   await onLogin(state);
   // };
-
   return (
-    <div className="container bg-black text-white h-[100%] flex flex-col-reverse md:flex-row w-full">
+    <div className="w-full h-screen flex flex-col-reverse md:flex-row overflow-x-hidden">
       <Form
-        className="flex items-center justify-center w-full h-full p-10"
+        className="flex items-center justify-center w-full h-full p-10 bg-black text-white"
         onSubmit={handleSubmit}
       >
-        <div className="flex flex-col gap-2  w-full md:w-[50%]">
-          <h2 className="text-orange-500 font-extrabold text-xl underline underline-offset-4 ">
+        <div className="flex flex-col gap-2 w-full md:w-[50%]">
+          <h2 className="text-orange-500 font-extrabold text-xl underline underline-offset-4">
             Zaika
           </h2>
-
+  
           <Input
             name="email"
             placeholder="Email"
             handleChange={handleState}
             type="text"
-            className={`bg-zinc-900 py-1 px-4 w-full shadow-xl  placeholder:text-sm hover:bg-zinc-800 cursor-pointer focus:outline-none`}
+            className="bg-zinc-900 py-1 px-4 w-full shadow-xl placeholder:text-sm hover:bg-zinc-800 cursor-pointer focus:outline-none"
           />
-
+  
           <Input
             name="password"
             placeholder="Password"
             handleChange={handleState}
             type="password"
-            className={`bg-zinc-900 py-1 px-4 w-full placeholder:text-sm hover:bg-zinc-800 cursor-pointer focus:outline-none`}
+            className="bg-zinc-900 py-1 px-4 w-full placeholder:text-sm hover:bg-zinc-800 cursor-pointer focus:outline-none"
           />
-
+  
           <div className="w-full md:w-[50%] m-auto flex flex-col gap-2">
             <Button
               title={loading ? "Loading" : "Login"}
-              className={`bg-orange-500 text-white hover:bg-orange-600 py-1 px-6 w-full `}
+              className="bg-orange-500 text-white hover:bg-orange-600 py-1 px-6 w-full"
               type="submit"
               disabled={loading}
             />
           </div>
         </div>
       </Form>
-
-      <div className="w-full h-full saturate-200 ">
+  
+      <div className="w-full h-full">
         <img
           src={recipeOne}
           alt="A dish with food recipes"
-          className="w-full h-full object-center object-cover"
+          className="w-full h-full object-cover"
         />
       </div>
     </div>
   );
-};
-
+};  
 // Wrapped with BrowserRouter for useNavigate() to work correctly
 export const WrappedLanding = () => {
   return (
